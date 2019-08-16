@@ -1,32 +1,98 @@
-
-body{
-	font-family: 
+body {
+  font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  background-color: #ECEEF1;
 }
 
-#top-section{
-	display: flex;
-	position: relative;
-	right: -1070px;
-}
-#top-part{
-	display: flex;
-	flex-direction: column;
+nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
 }
 
-.icons{
-  display: flex-inline;
-  margin-left: auto;
-  margin-right: auto;
+#sign-area {
+margin-right: 8px;
+}
+
+#sign-instructions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   position: relative;
-  top: 70px;
-  align-content: center;
-  vertical-align: center;
+  top: 3px;
 }
 
-#logo{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+#lock {
+  height: 20px;
+  width: 20px;
   position: relative;
-  top: 70px;
+  right: 2px;
+  top: 2px;
+}
+
+nav > button {
+  background-color: #0077C5;
+  color: white;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 4px;
+  font-size: 13px;
+
+
+}
+
+.sign-details {
+  font-size: 12px;
+}
+
+#sign-1 {
+  color: #505050;
+}
+
+#sign-2 {
+  color: #0077C5;
+
+}
+
+#logo-icons {
+  width: 250px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#main-logo {
+  height: 45px;
+  width: 125px;
+  cursor: pointer;
+}
+
+#companies-logo {
+  display: flex;
+  margin-top: 3px;
+}
+
+.logo-details {
+  display: flex;
+  align-items: center;
+  margin: 0 2px;
+}
+
+.logos-img {
+  height: 38px;
+  width: 38px;
+  cursor: pointer;
+}
+
+.companies-name {
+  color: gray;
+  font-size: 19px;
+  font-weight: 100;
+  cursor: pointer;
 }
