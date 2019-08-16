@@ -1,5 +1,32 @@
 
 body{
-margin: auto;
-background-color: gray;
+	font-family: 
+}
+
+#top-section{
+	display: flex;
+	position: relative;
+	right: -1070px;
+}
+#top-part{
+	display: flex;
+	flex-direction: column;
+}
+
+.icons{
+  display: flex-inline;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 70px;
+  align-content: center;
+  vertical-align: center;
+}
+
+#logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 70px;
 }
