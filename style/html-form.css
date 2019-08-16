@@ -96,3 +96,40 @@ nav > button {
   font-weight: 100;
   cursor: pointer;
 }
+
+form{
+	border: 1px solid #c7c7c7;
+	background-color: #fff;
+	padding: 30px;
+	width: 380px;
+	margin: auto;
+	border-radius: 2px;
+	box-sizing: border-box;
+
+}
+#form-head{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #4C4C4C;
+}
+
+#form-head1{
+   font-size: 24px;
+}
+
+#form-head2{
+	font-size: 14px;
+	margin-top: -2px;
+}
+
+#form-head3{
+	text-decoration: none;
+	font-size: 13px;
+	color: #0077C5;
+}
+
+
+
+
+
