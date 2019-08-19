@@ -203,3 +203,27 @@ form > button {
 #Captcha span {
   color: #0077C5;
 }
+
+#footer-links{
+	display: flex;
+	justify-content: center;
+}
+
+.links{
+	color: #505050;
+	text-align: center;
+	margin: 15px 5px 0;
+	text-decoration: none;
+
+}
+
+#footer-terms{
+	text-align: center;
+	margin-top: -8px;
+	color: #505050;
+}
+
+#footer-terms >p{
+	font-size: 12px;
+	font-weight: 400;
+}

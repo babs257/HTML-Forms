@@ -50,16 +50,16 @@
 
 	</header>
 
-	<form id="form-elements" action="/login" method="post">
+<form id="form-elements" action="/login" method="post">
 	<div id="form-head">
 		<p id="form-head1">Create an Intuit account</p>
 		<p id="form-head2">One account for everything Intuit, including Mint</p>
 		<a id="form-head3" href="#">Learn more</a>
 	</div>
 	<label class="input-label" for="email-address">Email Address</label>
-	<input class="input-details" type="email" name="email-address">
+	<input class="input-details" type="email" name="email-address" id="email-address">
 	<label class="input-label" for="phone-number">Phone (recommended)</label>
-	<input class="input-details" type="tel" name="phone-number">
+	<input class="input-details" type="tel" name="phone-number" id="phone-number">
 	<span id="extra-input">Standard call, messaging or data rates may apply.</span>
 
 	<label class="input-label" for="password">Password</label>
@@ -75,8 +75,20 @@
 		<p >Invisible reCAPTCHA by Google <span>Privacy Policy</span> and <span>Terms of Use</span> .</p>
 	
 	</div>
-
 </form>
+
+<footer>
+	<div id="footer-links">
+		<a class="links" href="#">Legal</a>
+		<a class="links" href="#">Privacy</a>
+		<a class="links" href="#">Security</a>
+	</div>
+
+	<div id="footer-terms">
+		<p>© 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.<br>
+		Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+	</div>
+</footer>
 		
 </body>
 </html>
