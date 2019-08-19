@@ -50,12 +50,18 @@
 
 	</header>
 
-	<form id="form-elements">
+	<form id="form-elements" action="/login" method="post">
 	<div id="form-head">
 		<p id="form-head1">Create an Intuit account</p>
 		<p id="form-head2">One account for everything Intuit, including Mint</p>
 		<a id="form-head3" href="#">Learn more</a>
-	</div>	
+	</div>
+	<label class="input-label" for="email-address">Email Address</label>
+	<input class="input-details" type="email" name="email-address">
+	<label class="input-label" for="phone-number">Phone (recommended)</label>
+	<input class="input-details" type="tel" name="phone-number">
+	<span id="extra-input">Standard call, messaging or data rates may apply.</span>
+
 	</form>
 		
 </body>
