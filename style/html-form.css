@@ -1,0 +1,229 @@
+body {
+  font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  background-color: #ECEEF1;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+
+#sign-area {
+margin-right: 8px;
+}
+
+#sign-instructions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 3px;
+}
+
+.lock {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  right: 2px;
+  top: 2px;
+}
+
+nav > button {
+  background-color: #0077C5;
+  color: white;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 4px;
+  font-size: 13px;
+
+
+}
+
+.sign-details {
+  font-size: 12px;
+}
+
+#sign-1 {
+  color: #505050;
+}
+
+#sign-2 {
+  color: #0077C5;
+
+}
+
+#logo-icons {
+  width: 250px;
+  margin: 40px auto 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#main-logo {
+  height: 45px;
+  width: 125px;
+  cursor: pointer;
+}
+
+#companies-logo {
+  display: flex;
+  margin-top: 3px;
+}
+
+.logo-details {
+  display: flex;
+  align-items: center;
+  margin: 0 2px;
+}
+
+.logos-img {
+  height: 38px;
+  width: 38px;
+  cursor: pointer;
+}
+
+.companies-name {
+  color: gray;
+  font-size: 19px;
+  font-weight: 100;
+  cursor: pointer;
+}
+
+form{
+	border: 1px solid #c7c7c7;
+	background-color: #fff;
+	padding: 30px;
+	width: 380px;
+	margin: auto;
+	border-radius: 2px;
+	box-sizing: border-box;
+
+}
+#form-head{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #4C4C4C;
+}
+
+#form-head1{
+   font-size: 24px;
+   margin-top: -2px;
+}
+
+#form-head2{
+	font-size: 14px;
+	margin-top: -2px;
+	color: #404040;
+}
+
+#form-head3{
+	text-decoration: none;
+	font-size: 13px;
+	color: #0077C5;
+}
+
+.input-details{
+	height: 28px;
+	width: 310px;
+	display: flex;
+	border-radius: 3px;
+	border: 1px solid #C1C5C8;
+	margin-top: 25px;
+
+}
+
+.input-label{
+	display: flex;
+	margin-top: 25px;
+	margin-bottom: -18px;
+	font-size: 14px;
+	color: #404040;				
+}
+
+#extra-input{
+	color: #404040;
+	font-size: 10px;
+}
+
+form > button {
+  margin: 25px 0;
+  height: 44px;
+  width: 310px;
+  background-color: #0077C5;
+  color: white;
+  border: 1px solid #0077C5;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+#form-footer {
+  font-size: 12px;
+  font-weight: 100;
+  font-style: italic;
+  color: #757575;
+  margin: 22px;
+  display: block;
+  position: relative;
+  top: 25px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+#form-footer span {
+  color: #0077C5;
+}
+
+#Captcha {
+  background-color: #ECEEF1;
+  font-size: 10px;
+  color: #8d9096;
+  text-align: center;
+  padding: 10px;
+  height: 34px;
+  width: 358px; 
+  margin: auto;
+  position: relative;
+  top: 30px;
+  left: -30px;
+  font-weight: 100;
+}
+
+#Captcha span {
+  color: #0077C5;
+}
+
+#footer-links{
+	display: flex;
+	justify-content: center;
+}
+
+.links{
+	color: #505050;
+	text-align: center;
+	margin: 15px 5px 0;
+	text-decoration: none;
+
+}
+
+#footer-terms{
+	text-align: center;
+	margin-top: -8px;
+	color: #505050;
+}
+
+#footer-terms >p{
+	font-size: 12px;
+	font-weight: 400;
+}
